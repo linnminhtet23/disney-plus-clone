@@ -44,6 +44,7 @@ const Nav = styled.nav`
   display: flex;
   align-items: center;
   padding: 0 36px;
+  overflow-x: hidden;
 `;
 
 const Logo = styled.img`
@@ -54,7 +55,7 @@ const NavMenu = styled.div`
   display: flex;
   flex: 1;
   margin-left: 25px;
-  alitn-items: center;
+  align-items: center;
   a {
     display: flex;
     align-items: center;
